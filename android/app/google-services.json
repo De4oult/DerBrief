@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "633364774729",
+    "project_id": "der-brief",
+    "storage_bucket": "der-brief.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633364774729:android:40e4e46158dc16ceee6498",
+        "android_client_info": {
+          "package_name": "com.example.der_brief"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAojpytX7GxAQg7lASD-VsMFRYrEUoVlSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
