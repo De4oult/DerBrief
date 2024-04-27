@@ -1,6 +1,7 @@
-import 'package:flutter/cupertino.dart';
+import 'package:der_brief/screens/auth/login_screen.dart';
+import 'package:der_brief/api/api.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter/services.dart';
 
 import '../../main.dart';
 import 'home_screen.dart';
@@ -18,10 +19,21 @@ class _SplashScreenState extends State<SplashScreen> {
     @override
     void initState() {
         super.initState();
-        Future.delayed(const Duration(milliseconds: 1500), () {
+        Future.delayed(const Duration(seconds: 2), () {
+            SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+            SystemChrome.setSystemUIOverlayStyle(
+                const SystemUiOverlayStyle(
+                    statusBarColor: Colors.transparent
+                )
+            );
+            
+            if(API.auth.currentUser != null) Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const HomeScreen()));
+            else                             Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => const LoginScreen()));
+
             Navigator.pushReplacement(
                 context,
-                MaterialPageRoute(builder: (_) => const HomeScreen()));
+                MaterialPageRoute(builder: (_) => const LoginScreen())
+            );
         });
     }
 

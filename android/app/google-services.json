@@ -12,7 +12,20 @@
           "package_name": "com.example.der_brief"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "633364774729-me5hhjqj7js50d621hkn2l142q2mqtp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.der_brief",
+            "certificate_hash": "a6071ee0e5f6936621a2b9ea0d3ebaced84539f0"
+          }
+        },
+        {
+          "client_id": "633364774729-t7q5rb2pojn98li6q24hthgj4g4h1kl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAojpytX7GxAQg7lASD-VsMFRYrEUoVlSQ"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633364774729-2ej0ji1fehjl38kph4b7b79peqdepvq0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "633364774729-ief3dt700l26lndesequnh0l3fo5nvg1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.derBrief"
+              }
+            }
+          ]
         }
       }
     }

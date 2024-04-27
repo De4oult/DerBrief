@@ -49,20 +49,23 @@ class DefaultFirebaseOptions {
         }
     }
 
-    static const FirebaseOptions android = FirebaseOptions(
-        apiKey: 'AIzaSyAojpytX7GxAQg7lASD-VsMFRYrEUoVlSQ',
-        appId: '1:633364774729:android:40e4e46158dc16ceee6498',
-        messagingSenderId: '633364774729',
-        projectId: 'der-brief',
-        storageBucket: 'der-brief.appspot.com',
-    );
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyAojpytX7GxAQg7lASD-VsMFRYrEUoVlSQ',
+    appId: '1:633364774729:android:40e4e46158dc16ceee6498',
+    messagingSenderId: '633364774729',
+    projectId: 'der-brief',
+    storageBucket: 'der-brief.appspot.com',
+  );
 
-    static const FirebaseOptions ios = FirebaseOptions(
-        apiKey: 'AIzaSyAkKobOrRWkEUMUF_EgDrrRFVgtSoanGW4',
-        appId: '1:633364774729:ios:af074972a5e21bbcee6498',
-        messagingSenderId: '633364774729',
-        projectId: 'der-brief',
-        storageBucket: 'der-brief.appspot.com',
-        iosBundleId: 'com.example.derBrief',
-    );
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyAkKobOrRWkEUMUF_EgDrrRFVgtSoanGW4',
+    appId: '1:633364774729:ios:af074972a5e21bbcee6498',
+    messagingSenderId: '633364774729',
+    projectId: 'der-brief',
+    storageBucket: 'der-brief.appspot.com',
+    androidClientId: '633364774729-me5hhjqj7js50d621hkn2l142q2mqtp6.apps.googleusercontent.com',
+    iosClientId: '633364774729-ief3dt700l26lndesequnh0l3fo5nvg1.apps.googleusercontent.com',
+    iosBundleId: 'com.example.derBrief',
+  );
+
 }
